@@ -4,8 +4,7 @@
 ![votar](https://user-images.githubusercontent.com/96142665/195166102-3b38f247-283e-464b-a331-461d7c663f53.png)
 
 ## Endpoint - Buscar Candidato
-![1_XQsv32ZCqyXL4l9QheyCzg](https://user-images.githubusercontent.com/96142665/195148837-84fe1c8c-07a2-43f5-84aa-dc705990f437.png)
-
+![candidatos](https://user-images.githubusercontent.com/96142665/195166512-4e85b4df-f189-4db8-9779-f52ed6818892.png)
 <h1>Lista dos candidatos</h1>
 
 <ul>
