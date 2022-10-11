@@ -80,13 +80,14 @@ app.post('/candidates', (request, response) => {
 
 app.get('/candidates/:id', (request, response) => {
   let username = request.headers['x-bolovo-username'];
+
+  console.log("Data e hora: " + new Date().toLocaleString() + ". " + username + " acessou o sistema de busca de candidatos.");
+
   const { id } = request.params;
 
   const candidate = candidates.find(
     (candidate) => candidate.candidateId == id
   );
-
-  console.log("Data e hora: " + new Date().toLocaleString() + ". " + username + " acessou o sistema de contagem de votos.");
 
   if (!candidate) {
     return response.status(400).json({ errMsg: 'Candidato não existe!' });
@@ -98,6 +99,9 @@ app.get('/candidates/:id', (request, response) => {
 
 app.post("/votes/:candidateId", (request, response) => {
   let username = request.headers['x-bolovo-username'];
+  
+  console.log("Data e hora: " + new Date().toLocaleString() + ". " + username + " acessou o sistema de contagem de votos.");
+
   const { candidateId } = request.params;
   
   const candidate = candidates.find(
@@ -111,8 +115,6 @@ app.post("/votes/:candidateId", (request, response) => {
   candidate.votes++;
 
   let res = username + " seu voto foi confirmado no candidato " + candidate.candidateName + " do " + candidate.partyName;
-
-  console.log("Data e hora: " + new Date().toLocaleString() + ". " + username + " acessou o sistema de contagem de votos.");
 
   return response.json({ msg: res });
   
