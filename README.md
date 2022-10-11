@@ -21,4 +21,12 @@
   
   <h2>Votos</h2>
   
-  <p>No candidato que você votar vai ter a quantidade de votos, o que mais votos ganha. Se você colocar um número e aparecer que esse candidato na existe, então você votou nulo.</p>
+  <p>O candidato que você votar vai ter a quantidade de votos, o que tiver mais votos ganha. Se você colocar um número e aparecer que esse candidato não existe, então você votou nulo.</p>
+  
+  <h1>Regras</h1>
+  
+  <ul>
+  
+    <li>
+  
+   
