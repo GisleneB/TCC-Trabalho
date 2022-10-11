@@ -14,18 +14,22 @@
   <li>Lara</li>
   <li>Steve Magal</li>
   
-  </ul>
+</ul>
   
-  <p>Se não for o número certo do candidato pode dar erro!</p>
+<p>Se não for o número certo do candidato pode dar erro!</p>
   
-  <h2>Votos</h2>
+<h2>Votos</h2>
   
-  <p>O candidato que você votar vai ter a quantidade de votos, o que tiver mais votos ganha. Se você colocar um número e aparecer que esse candidato não existe, então você votou nulo.</p>
+<p>O candidato que você votar vai ter a quantidade de votos, o que tiver mais votos ganha. Se você colocar um número e aparecer que esse candidato não existe, então você votou nulo.</p>
   
-  <h1>Regras</h1>
+<h1>Regras</h1>
   
-  <ul>
+<ul>
   
-    <li>
+    <li>Levar o título</li>
+    <li>Um documento com foto</li>
+    <li>Entrar sem celular</li>
+
+</ul>
   
    
