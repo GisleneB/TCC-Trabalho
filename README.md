@@ -26,9 +26,9 @@
   
 <ul>
   
-    <li>Levar o título</li>
-    <li>Um documento com foto</li>
-    <li>Entrar sem celular</li>
+   <li>Levar o título</li>
+   <li>Um documento com foto</li>
+   <li>Entrar sem celular</li>
 
 </ul>
   
