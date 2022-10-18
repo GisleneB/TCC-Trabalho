@@ -1,11 +1,11 @@
 # Backend - Urna Eletrônica
 
-## Endpoint - Votar
-![votar](https://user-images.githubusercontent.com/96142665/195166102-3b38f247-283e-464b-a331-461d7c663f53.png)
-
 ## Endpoint - Buscar Candidato
 ![candidatos](https://user-images.githubusercontent.com/96142665/195166512-4e85b4df-f189-4db8-9779-f52ed6818892.png)
 <h1>Lista dos candidatos</h1>
+
+## Endpoint - Votar
+![votar](https://user-images.githubusercontent.com/96142665/195166102-3b38f247-283e-464b-a331-461d7c663f53.png)
 
 <ul>
   
