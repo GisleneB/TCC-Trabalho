@@ -116,7 +116,7 @@ app.post("/votes/:candidateId", (request, response) => {
 
   let res = username + " seu voto foi confirmado no candidato " + candidate.candidateName + " do " + candidate.partyName;
 
-  return response.json({ msg: res });
+  return response.json({ Msg: res });
   
 });
 
